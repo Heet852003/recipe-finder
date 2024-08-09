@@ -1,6 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
+const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -10,7 +11,7 @@ app.use(express.json());
 
 const BASE_URL = process.env.THEMEALDB_BASE_URL || 'https://www.themealdb.com/api/json/v1/1';
 
-
+// API routes
 app.get('/api/recipes', async (req, res) => {
   try {
     const { ingredient } = req.query;
@@ -29,6 +30,14 @@ app.get('/api/recipes/:id', async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: 'An error occurred while fetching recipe details' });
   }
+});
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'client/build')));
+
+// Catch all other routes and return the index.html file from the React app
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 
 app.listen(PORT, () => {
