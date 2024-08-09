@@ -1,61 +1,73 @@
-**Flavour Quest**
-Flavour Quest is a web application that allows users to discover recipes based on the ingredients they have. Built with a modern tech stack, it offers a seamless and user-friendly experience for cooking enthusiasts.
+# ![Recipe Finder Logo](./client/src/flavour_quest_logo.png) Recipe Finder
 
-🚀 Features
-Search Recipes by Ingredient: Simply input an ingredient, and the app will return a list of recipes that use it.
-View Recipe Details: Click on a recipe to see detailed instructions, ingredients, and a photo of the finished dish.
-Responsive Design: Optimized for all devices, so you can use it on your phone, tablet, or desktop.
-API Integration: Powered by TheMealDB API for reliable recipe data.
-Full-Stack Application: Built with React for the frontend and Node.js/Express for the backend.
-Deployed on Vercel: Seamless deployment with environment-specific configurations.
-🛠️ Tech Stack
-Frontend: React, CSS
-Backend: Node.js, Express
-API: TheMealDB
-Deployment: Vercel
-📦 Installation
-Clone the Repository:
+**Recipe Finder** is a web application that allows users to discover recipes based on the ingredients they have. Built with a modern tech stack, it offers a seamless and user-friendly experience for cooking enthusiasts.
 
-bash
-Copy code
-git clone https://github.com/Heet852003/recipe-finder.git
-cd recipe-finder
-Install Dependencies:
+## 🚀 Features
 
-bash
-Copy code
-npm install
-cd client
-npm install
-cd ..
-Run the Development Server:
+- **Search Recipes by Ingredient**: Simply input an ingredient, and the app will return a list of recipes that use it.
+- **View Recipe Details**: Click on a recipe to see detailed instructions, ingredients, and a photo of the finished dish.
+- **Responsive Design**: Optimized for all devices, so you can use it on your phone, tablet, or desktop.
+- **API Integration**: Powered by TheMealDB API for reliable recipe data.
+- **Full-Stack Application**: Built with React for the frontend and Node.js/Express for the backend.
+- **Deployed on Vercel**: Seamless deployment with environment-specific configurations.
 
-bash
-Copy code
-npm run dev
-The app will be available at http://localhost:3000.
+## 🛠️ Tech Stack
 
-📝 Usage
-Search Recipes:
+- **Frontend**: React, CSS
+- **Backend**: Node.js, Express
+- **API**: [TheMealDB](https://www.themealdb.com/)
+- **Deployment**: Vercel
 
-Enter an ingredient in the search bar.
-Click "Search" to find recipes.
-View Recipe Details:
+## 📦 Installation
 
-Click on a recipe to view its details, including ingredients and preparation steps.
-🌐 Deployment
-This application is deployed on Vercel. Visit the live app here.
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/Heet852003/recipe-finder.git
+    cd recipe-finder
+    ```
 
-🔧 Environment Variables
+2. **Install Dependencies**:
+    ```bash
+    npm install
+    cd client
+    npm install
+    cd ..
+    ```
+
+3. **Run the Development Server**:
+    ```bash
+    npm run dev
+    ```
+
+    The app will be available at `http://localhost:3000`.
+
+## 📝 Usage
+
+1. **Search Recipes**:
+   - Enter an ingredient in the search bar.
+   - Click "Search" to find recipes.
+
+2. **View Recipe Details**:
+   - Click on a recipe to view its details, including ingredients and preparation steps.
+
+## 🌐 Deployment
+
+This application is deployed on Vercel. Visit the live app [here](https://your-vercel-app-url).
+
+## 🔧 Environment Variables
+
 To configure the application, set up the following environment variables:
 
-THEMEALDB_BASE_URL - The base URL for TheMealDB API.
-🤝 Contributing
+- `THEMEALDB_BASE_URL` - The base URL for TheMealDB API.
+
+## 🤝 Contributing
+
 Contributions are welcome! Feel free to submit a pull request or open an issue.
 
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 📄 License
 
-📧 Contact
-For any inquiries, reach out to me at mehtaheet5@gmail.com.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## 📧 Contact
+
+For any inquiries, reach out to me at [mehtaheet5@gmail.com](mailto:mehtaheet5@gmail.com).
