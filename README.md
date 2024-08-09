@@ -52,7 +52,7 @@
 
 ## 🌐 Deployment
 
-This application is deployed on Vercel. Visit the live app [here](https://your-vercel-app-url).
+This application is deployed on Vercel. Visit the live app [here](https://recipe-finder-git-master-heet-mehtas-projects.vercel.app/).
 
 ## 🔧 Environment Variables
 
