@@ -48,7 +48,7 @@ function App() {
   const searchRecipes = async () => {
     setLoading(true);
     try {
-      const response = await axios.get(`http://localhost:5000/api/recipes?ingredient=${ingredient}`);
+      const response = await axios.get(`/api/recipes?ingredient=${ingredient}`);
       setRecipes(response.data);
     } catch (error) {
       console.error('Error fetching recipes:', error);
@@ -59,7 +59,7 @@ function App() {
   const getRecipeDetails = async (id) => {
     setLoading(true);
     try {
-      const response = await axios.get(`http://localhost:5000/api/recipes/${id}`);
+      const response = await axios.get(`/api/recipes/${id}`);
       setSelectedRecipe(response.data);
     } catch (error) {
       console.error('Error fetching recipe details:', error);
