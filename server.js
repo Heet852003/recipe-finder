@@ -8,7 +8,8 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const BASE_URL = 'https://www.themealdb.com/api/json/v1/1';
+const BASE_URL = process.env.THEMEALDB_BASE_URL || 'https://www.themealdb.com/api/json/v1/1';
+
 
 app.get('/api/recipes', async (req, res) => {
   try {
