@@ -1,4 +1,4 @@
-# <img src="./client/src/flavour_quest_logo.png" alt="Recipe Finder Logo" width="250" height="250"> Flavour Quest
+# <img src="./client/src/flavour_quest_logo.png" alt="Recipe Finder Logo" width="100" height="100"> Flavour Quest
 
 **Flavour Quest** is a web application that allows users to discover recipes based on the ingredients they have. Built with a modern tech stack, it offers a seamless and user-friendly experience for cooking enthusiasts.
 
